@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reservation </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="bg_img_res">
+        <img src="bg.jpg" alt="erorr" width="1262px" height="582px">
+    </div>
+    <div class="box_res">    </div>
+    <div id="title_res">
+        TABLE BOOKING
+    </div>
+    <form action="">
+        
+        <label for="name" id="name_res">NAME*</label>
+        <input type="text" id="name_text_res">
+
+        <label for="email" id="mail_res">EMAIL*</label>
+        <input type="Email" id="mail_text_res">
+        
+        <label for="phone" id="phone_res">PHONE NO.*</label>
+        <input type="phone" id="phone_text_res">
+
+        <label for="date" id="date_res">DATE*</label>
+        <input type="date" id="date_text_res">
+
+        <label for="time" id="time_res">TIME*</label>
+        <input type="time" id="time_text_res" min="11:00" max="23:00">
+
+        <label for="seats" id="seats_res">SEATS*</label>
+        <select name="seat" id="seat_select_res" >
+            <option value="2">2 Chair Table</option>
+            <option value="3">3 Chair Table</option>
+            <option value="4">4 Chair Table</option>
+            <option value="5">5 Chair Table</option>
+            <option value="6">6 Chair Table</option>
+            <option value="8">8 Chair Table</option>
+            <option value="12">12 Chair Table</option>
+        </select>
+
+        <label for="special requests" id="sp_rec">SPECIAL REQUESTS</label>
+        <textarea name="sp_req" id="sp_req" cols="30" rows="2"></textarea>
+
+    
+                <button style="font-size: 20px;
+                position:absolute;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border: 4px solid rgb(0, 0, 0);
+                background-color: rgba(255, 255, 255, 0.692);
+                color: rgb(0, 0, 0);
+                padding: 10px 20px;
+                left: 540px;
+                top: 461px;"> BOOK TABLE</button></div>
+
+
+        <a href="index.html" id="home_res">Back To Home</a>
+    </form>
+</body>
+</html>
